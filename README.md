@@ -1,0 +1,1 @@
+# lpspokemon.github.io
