@@ -2,8 +2,6 @@ hiiii
 <h1>Revolutionary Net Art</h1>
 <h2>by dani</h2>
 <h3>this is my art :)</h3>
-
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -16,9 +14,6 @@ hiiii
   <h2>
      Videos
   </h2>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/ffo5IDovJqE">
 </iframe>
