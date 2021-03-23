@@ -1,14 +1,27 @@
 <!DOCTYPE html> 
   <html lang="en-US">
     <head> <meta charset="utf-8">
-
-   <title> my page </title> MYSTERY STORY 
+  <title> my page </title> <h1>
+      MYSTERY STORY
+      </h1>
 </head>
-    
     <body>
       <p>
-       Go on an adventure through website and color
-        
+       Go on an adventure through pages, doors, and color  
       </p>
     </body>
-  </html>
+</html>
+<style>
+  body {margin: 0;}
+</style>
+<script>
+  // click on the blank page to change background color
+  window.addEventListener('click', () => {
+    const r = Math.random() * 255
+    const g = Math.random() * 255
+    const b = Math.random() * 255
+    const color = `rgb(${r},${g},${b})`
+    // const h = Math.random() * 360
+    // const color = `hsl(${h}, 100%, 90%)`
+    document.body.style.backgroundColor = color})
+</script>
