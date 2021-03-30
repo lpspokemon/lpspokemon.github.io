@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <body style="background-color:gold">
-
+<script>
+  
+  // click on the blank page to change background color
+  window.addEventListener('click', () => {
+    const r = Math.random() * 255
+    const g = Math.random() * 255
+    const b = Math.random() * 255
+    const color = `rgb(${r},${g},${b})`
+    // const h = Math.random() * 360
+    // const color = `hsl(${h}, 100%, 90%)`
+    document.body.style.backgroundColor = color})
+</script>
 <h1 style="font-family:courier; font-size:300%">FINAL ROOM</h1>
 <p style="font-family:courier; font-size:160%"> You enter the last room. </p> 
-    <p style="font-family:fantasy; font-size:130%"> you look around the room to see color everywhere. It's almost as if the entire rainbow was poured onto only one canvas. </p>
+    <p style="font-family:fantasy; font-size:130%"> you look around the room to see color everywhere. It's almost as if the entire rainbow was poured onto only one canvas. is this it? i guess.</p>
 
    <a href="thedoors.html"> Play Again</a> 
    - try a new pathway!
